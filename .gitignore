@@ -1,0 +1,26 @@
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Données générées (trop lourdes pour GitHub)
+data/audio/
+data/chunks_cache/
+data/state.json
+vllm.log
+
+# Chapitres source (privés)
+data/chapitres/
+
+# LoRA (téléchargées depuis HuggingFace)
+lora_models/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de test
+output_0509.json
+Chapitre_0509.txt
